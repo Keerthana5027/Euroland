@@ -1,0 +1,456 @@
+.header
+{
+    background-color: #0f2440;
+    height:100px;
+}
+
+.headtitle li
+{
+    display: inline;
+}
+
+.headtitle a{
+    float: left;
+    color: white;
+    padding: 30px; 
+    padding-top: 30px;   
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.headtitle img
+{
+    height: 90px;
+    width: 400px;
+    padding-top: 5px; 
+    float: left;
+    padding-left: 80px;
+} 
+
+.headtitle a:hover
+{
+   background-color: lightblue;
+}
+    
+.headtitle a
+{   
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+    border: none;
+    height: 5px;
+} 
+
+.container
+ {
+     height: 550px;
+     background-image: url(./banner.jpg);
+     width: 100%;
+     display: flex;
+     flex-direction: row; 
+     align-items: center;
+ }
+
+.paragraph
+ {
+    padding-top: 1px; 
+    width: 600px;
+    height: 490px;
+     display: flex;
+    justify-content: flex-end;  
+    float: left;
+    padding-left: 350px;
+ } 
+
+.news
+ {
+    box-sizing: border-box;
+    border: 1px solid black;
+    height: 490px;
+    width: 370px;
+    float: right;
+    background-color: #0f2440;
+    color: white;
+    padding-left: 30px;
+ }
+
+.news p{
+    font-size: 16px;
+    line-height: 1.7em;
+    font-weight: 300;  
+ } 
+
+.news p a{
+    color: skyblue;
+    text-decoration: none;
+ }
+
+.news h3{
+    font-weight: 700;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+    color: white;
+    padding-right: 190px;
+ } 
+    
+.content
+{
+    height: 800px;
+    padding-top: 5px;
+}
+
+.content h2{
+    text-transform: uppercase;
+    color: #0f2440;
+    font-size: 34px;
+    line-height: 1.4em;
+    font-weight: 700;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+ 
+.firstthree
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;   
+}
+ 
+.box
+{
+    box-sizing: border-box;
+    border: none;
+    height: 300px;
+    width: 400px;
+}
+
+.box p
+{
+    color: #5a5c5e;
+    font-size: 14px;
+    line-height: 1.5em;
+     text-align: center;
+}
+
+.box h3{
+    text-transform: uppercase;
+    color: #0f2440;
+    font-size: 16px;
+    line-height: 1.5em;
+    margin: 1.5em 0;
+    min-height: 62px;
+    text-align: center;
+}
+
+.box:hover
+{
+    border: 1px solid white;
+    background-color: white;
+    box-shadow: 10px 10px 10px 10px gainsboro;
+    cursor: pointer;
+}
+
+.lastthree
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.clients
+{
+    height: 600px;
+    background-color: #efeded;
+    padding-top: 1px;  
+}
+
+.clients img
+{
+    height: 100px;
+    width: 150px;
+    padding-left: 250px;
+    float: left;
+}
+
+.heading h4{
+    text-align: center;
+    font-size: 40px;
+    color: #333;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.tries p
+{
+    color: #858284;
+    font-weight: 300;
+    line-height: 1.5em;
+    padding: 20px;
+    /* border: 1px solid black; 
+    border: none; */
+    align-content: center;
+    width: 570px;
+    text-align: left;
+    font-size: large; 
+    padding-right: 400px;
+}
+
+.tries h3
+{
+    color: #20bdd8;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.5em;
+    text-align: right;
+    /* border: 1px solid black;  */
+    width: 400px;
+    padding-left: 300px;
+}
+
+.tries i
+{
+    font-size: 50px;
+    padding-right: 1000px;
+    color: #333;
+}
+
+.icons
+{
+    height: 250px;
+    padding-top: 1px;
+}
+
+ .icons h3
+{
+    text-align: center;
+    text-transform: uppercase;
+    color: #0f2440;
+    font-size: 34px;
+    line-height: 1.4em;
+    font-weight: 700;
+    font-family: 'Josefin Sans', sans-serif;  
+}
+
+.symbols
+{
+    float: left;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap ;
+    justify-content: space-evenly;  
+    align-content: end;
+    padding: 20px;
+} 
+
+.symbols img
+{
+    height: 80px ;
+    width: 100px;
+}
+
+.width
+{
+    padding-left: 350px;
+}
+
+.things
+{
+    height: 400px; 
+    background-color: rgba(15, 36, 64, 0.84);;
+    padding-top: 1px;
+}
+
+.things h2
+{
+    color: white;
+    text-align: center;
+    font-size: 34px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-top: 60px;
+}
+
+.things h3
+{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    line-height: 2px;
+    
+}
+
+.things p
+{
+    color: white;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    text-transform: capitalize;
+    line-height: 1px;
+}
+
+.experience
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+
+.globally
+{
+    height: 800px;
+    background: #223a5a;
+    padding-top: 1px;
+}
+
+.globally h3
+{
+    font-size: 34px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+}
+
+.locations a,i
+{
+    text-decoration: none;
+    color: #337ab7;
+     padding: 2px; 
+     font-weight: 700;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+}
+
+.locations p
+{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.7em;   
+}
+
+.map
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;   
+}
+
+div .city
+{
+    box-sizing: border-box;
+    border: 1px solid black;
+    width: 200px;
+    border: none;
+}
+
+.maps
+{
+    display: flex;
+    flex-direction: row;
+    padding-left: 90px; 
+}
+
+.maps2
+{
+    padding-left: 140px;
+}
+
+.maps3
+{
+    padding-left: 210px;
+}
+
+.city i
+{
+    size: 100px;
+}
+
+.locations i:hover,.locations a:hover
+{
+    color: white ;
+     cursor: pointer; 
+}
+
+footer
+{
+    background-color: #0f2440;
+    height: 420px;
+}
+
+.foot h2
+{
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    padding-top: 30px;
+}
+
+div .foot
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.foot p
+{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.7em;
+}
+
+.foot a
+{
+    color: #337ab7;
+    text-decoration: none;
+}
+
+.foot a:hover
+{
+    color: white;
+}
+
+.mail .fa2
+{
+    display: inline-block;
+    font: normal normal normal 14px / 1 FontAwesome;
+    font-size: inherit;
+    color: white; 
+}
+
+.facebook .fa
+{
+    color: black;
+    box-sizing: border-box;
+    border: 1px solid white;
+    border: none;
+    border-radius: 45px;
+    background-color: white;
+    padding: 10px;   
+}
+
+.facebook .fa:hover
+{
+    color: white;
+    background-color: #20bdd8;   
+}
+
+.copyright p
+{
+    color: #fff;
+    text-align: center;
+    padding-top: 50px;
+    font-weight: 300;
+    text-transform: capitalize;
+}
